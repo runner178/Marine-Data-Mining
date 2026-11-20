@@ -1,0 +1,99 @@
+{
+  "device": "NVIDIA GeForce RTX 3090",
+  "visible_device": "7",
+  "gate": 0.8,
+  "cases": 1908,
+  "domain_assignment": [
+    0,
+    0,
+    1,
+    0,
+    0,
+    2,
+    2,
+    0
+  ],
+  "domain_failure_probability": [
+    0.0,
+    0.0,
+    0.0
+  ],
+  "independent_failure_probability": 0.05,
+  "validation_availability": [
+    0.9485406875610352,
+    0.9443164467811584,
+    0.9496927857398987,
+    0.9585253596305847,
+    0.9435483813285828,
+    0.9569892287254333,
+    0.9554531574249268,
+    0.948924720287323
+  ],
+  "validation_mean_same_domain_missing_correlation": 0.0038715729876238713,
+  "guarded_choice": "static_cost_aware",
+  "optimized_fixed_order": [
+    2,
+    5,
+    0,
+    6
+  ],
+  "validation_selection": {
+    "correct": 1296,
+    "false_confirmed": 25,
+    "mean_cost": 4.751152038574219,
+    "orders_searched": 1680
+  },
+  "policies": {
+    "optimized_fixed": {
+      "correct": 945,
+      "false_confirmed": 36,
+      "escalated": 927,
+      "mean_calls": 3.2290356394129978,
+      "mean_cost": 4.75314474105835
+    },
+    "online_mi": {
+      "correct": 1668,
+      "false_confirmed": 139,
+      "escalated": 101,
+      "mean_calls": 2.9643605870020964,
+      "mean_cost": 4.2319183349609375
+    },
+    "static_cost_aware": {
+      "correct": 1653,
+      "false_confirmed": 144,
+      "escalated": 111,
+      "mean_calls": 2.9664570230607965,
+      "mean_cost": 3.9462788105010986
+    },
+    "domain_aware": {
+      "correct": 1630,
+      "false_confirmed": 142,
+      "escalated": 136,
+      "mean_calls": 2.9664570230607965,
+      "mean_cost": 3.970911979675293
+    },
+    "guarded": {
+      "correct": 1653,
+      "false_confirmed": 144,
+      "escalated": 111,
+      "mean_calls": 2.9664570230607965,
+      "mean_cost": 3.9462788105010986
+    }
+  },
+  "domain_aware_vs_static_correct": {
+    "difference": -0.012054507337526204,
+    "cluster_bootstrap_95pct": [
+      -0.018343815513626835,
+      -0.005765199161425577
+    ],
+    "cluster_count": 53
+  },
+  "domain_aware_vs_online_correct": {
+    "difference": -0.01991614255765199,
+    "cluster_bootstrap_95pct": [
+      -0.026729559748427674,
+      -0.01310272536687631
+    ],
+    "cluster_count": 53
+  }
+}

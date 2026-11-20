@@ -1,0 +1,42 @@
+{
+  "tensorflow_autoencoder": {
+    "trajectory_count": 10207,
+    "positive_trajectories": 16,
+    "prevalence": 0.0015675516802194573,
+    "roc_auc": 0.5511174075164361,
+    "average_precision": 0.0017208537864440297,
+    "threshold": 0.11263767629861832,
+    "tp": 0,
+    "fp": 61,
+    "fn": 16,
+    "tn": 10130,
+    "precision_at_threshold": 0.0,
+    "recall_at_threshold": 0.0,
+    "positive_in_top_100": 0,
+    "vessel_count": 219,
+    "positive_vessels": 2,
+    "vessel_roc_auc": 0.20046082949308755,
+    "vessel_average_precision": 0.008396595353117091,
+    "vessel_score_rule": "maximum trajectory score per MMSI; exploratory only"
+  },
+  "robust_distance": {
+    "trajectory_count": 10207,
+    "positive_trajectories": 16,
+    "prevalence": 0.0015675516802194573,
+    "roc_auc": 0.5013369639878325,
+    "average_precision": 0.0015884028873523908,
+    "threshold": 64.6841049194336,
+    "tp": 0,
+    "fp": 34,
+    "fn": 16,
+    "tn": 10157,
+    "precision_at_threshold": 0.0,
+    "recall_at_threshold": 0.0,
+    "positive_in_top_100": 0,
+    "vessel_count": 219,
+    "positive_vessels": 2,
+    "vessel_roc_auc": 0.3824884792626728,
+    "vessel_average_precision": 0.010764598954783003,
+    "vessel_score_rule": "maximum trajectory score per MMSI; exploratory only"
+  }
+}

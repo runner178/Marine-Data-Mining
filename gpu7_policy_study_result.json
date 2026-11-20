@@ -1,0 +1,315 @@
+{
+  "device": "NVIDIA GeForce RTX 3090",
+  "visible_device": "7",
+  "cases_per_setting": 100000,
+  "calibration_cases": 10000,
+  "budget": 4,
+  "confidence_gate": 0.85,
+  "cost": [
+    1.0,
+    2.0,
+    1.5,
+    3.0,
+    2.5,
+    2.0,
+    1.0,
+    1.5
+  ],
+  "settings": {
+    "normal": {
+      "estimated_availability": [
+        0.96,
+        0.9592,
+        0.9634,
+        0.9583,
+        0.9592,
+        0.9566,
+        0.9599,
+        0.961
+      ],
+      "calibration_fixed": {
+        "correct": 5243,
+        "confirmed": 5702,
+        "false_confirmed": 459,
+        "escalated": 4298,
+        "calls_mean": 3.7368,
+        "cost_mean": 5.802549839019775,
+        "calls_histogram": [
+          0,
+          0,
+          0,
+          2632,
+          7368
+        ]
+      },
+      "calibration_recalibrated": {
+        "correct": 5243,
+        "confirmed": 5702,
+        "false_confirmed": 459,
+        "escalated": 4298,
+        "calls_mean": 3.7368,
+        "cost_mean": 5.802549839019775,
+        "calls_histogram": [
+          0,
+          0,
+          0,
+          2632,
+          7368
+        ]
+      },
+      "gated_choice": "fixed",
+      "policies": {
+        "workflow": {
+          "correct": 31124,
+          "confirmed": 34258,
+          "false_confirmed": 3134,
+          "escalated": 65742,
+          "calls_mean": 3.73885,
+          "cost_mean": 6.620800018310547,
+          "calls_histogram": [
+            0,
+            0,
+            0,
+            26115,
+            73885
+          ]
+        },
+        "online_mi": {
+          "correct": 41806,
+          "confirmed": 45533,
+          "false_confirmed": 3727,
+          "escalated": 54467,
+          "calls_mean": 3.73885,
+          "cost_mean": 6.211325168609619,
+          "calls_histogram": [
+            0,
+            0,
+            0,
+            26115,
+            73885
+          ]
+        },
+        "aware_fixed": {
+          "correct": 51415,
+          "confirmed": 56089,
+          "false_confirmed": 4674,
+          "escalated": 43911,
+          "calls_mean": 3.73885,
+          "cost_mean": 5.7918901443481445,
+          "calls_histogram": [
+            0,
+            0,
+            0,
+            26115,
+            73885
+          ]
+        },
+        "aware_recalibrated": {
+          "correct": 51415,
+          "confirmed": 56089,
+          "false_confirmed": 4674,
+          "escalated": 43911,
+          "calls_mean": 3.73885,
+          "cost_mean": 5.7918901443481445,
+          "calls_histogram": [
+            0,
+            0,
+            0,
+            26115,
+            73885
+          ]
+        },
+        "aware_gated": {
+          "correct": 51415,
+          "confirmed": 56089,
+          "false_confirmed": 4674,
+          "escalated": 43911,
+          "calls_mean": 3.73885,
+          "cost_mean": 5.7918901443481445,
+          "calls_histogram": [
+            0,
+            0,
+            0,
+            26115,
+            73885
+          ]
+        }
+      },
+      "paired_aware_recalibrated_vs_workflow": {
+        "difference": 0.20291,
+        "ci95_normal_approx": [
+          0.20017316663542145,
+          0.20564683336457856
+        ],
+        "a_only": 21953,
+        "b_only": 1662
+      },
+      "paired_aware_recalibrated_vs_online_mi": {
+        "difference": 0.09609,
+        "ci95_normal_approx": [
+          0.09386182641512147,
+          0.09831817358487852
+        ],
+        "a_only": 11728,
+        "b_only": 2119
+      },
+      "paired_aware_recalibrated_vs_aware_fixed": {
+        "difference": 0.0,
+        "ci95_normal_approx": [
+          0.0,
+          0.0
+        ],
+        "a_only": 0,
+        "b_only": 0
+      }
+    },
+    "degraded": {
+      "estimated_availability": [
+        0.7755,
+        0.5961,
+        0.8793,
+        0.6264,
+        0.7087,
+        0.7784,
+        0.4527,
+        0.6456
+      ],
+      "calibration_fixed": {
+        "correct": 1921,
+        "confirmed": 2086,
+        "false_confirmed": 165,
+        "escalated": 7914,
+        "calls_mean": 3.9064,
+        "cost_mean": 5.736000061035156,
+        "calls_histogram": [
+          0,
+          0,
+          0,
+          936,
+          9064
+        ]
+      },
+      "calibration_recalibrated": {
+        "correct": 1776,
+        "confirmed": 1929,
+        "false_confirmed": 153,
+        "escalated": 8071,
+        "calls_mean": 3.9064,
+        "cost_mean": 5.730100154876709,
+        "calls_histogram": [
+          0,
+          0,
+          0,
+          936,
+          9064
+        ]
+      },
+      "gated_choice": "fixed",
+      "policies": {
+        "workflow": {
+          "correct": 12438,
+          "confirmed": 13842,
+          "false_confirmed": 1404,
+          "escalated": 86158,
+          "calls_mean": 3.9102,
+          "cost_mean": 6.662539958953857,
+          "calls_histogram": [
+            0,
+            0,
+            0,
+            8980,
+            91020
+          ]
+        },
+        "online_mi": {
+          "correct": 16256,
+          "confirmed": 17921,
+          "false_confirmed": 1665,
+          "escalated": 82079,
+          "calls_mean": 3.9102,
+          "cost_mean": 6.2166748046875,
+          "calls_histogram": [
+            0,
+            0,
+            0,
+            8980,
+            91020
+          ]
+        },
+        "aware_fixed": {
+          "correct": 18686,
+          "confirmed": 20521,
+          "false_confirmed": 1835,
+          "escalated": 79479,
+          "calls_mean": 3.9102,
+          "cost_mean": 5.7519001960754395,
+          "calls_histogram": [
+            0,
+            0,
+            0,
+            8980,
+            91020
+          ]
+        },
+        "aware_recalibrated": {
+          "correct": 17261,
+          "confirmed": 18935,
+          "false_confirmed": 1674,
+          "escalated": 81065,
+          "calls_mean": 3.9102,
+          "cost_mean": 5.740954875946045,
+          "calls_histogram": [
+            0,
+            0,
+            0,
+            8980,
+            91020
+          ]
+        },
+        "aware_gated": {
+          "correct": 18686,
+          "confirmed": 20521,
+          "false_confirmed": 1835,
+          "escalated": 79479,
+          "calls_mean": 3.9102,
+          "cost_mean": 5.7519001960754395,
+          "calls_histogram": [
+            0,
+            0,
+            0,
+            8980,
+            91020
+          ]
+        }
+      },
+      "paired_aware_recalibrated_vs_workflow": {
+        "difference": 0.04823,
+        "ci95_normal_approx": [
+          0.04624793826571583,
+          0.05021206173428418
+        ],
+        "a_only": 7641,
+        "b_only": 2818
+      },
+      "paired_aware_recalibrated_vs_online_mi": {
+        "difference": 0.01005,
+        "ci95_normal_approx": [
+          0.00827353275066496,
+          0.011826467249335039
+        ],
+        "a_only": 4615,
+        "b_only": 3610
+      },
+      "paired_aware_recalibrated_vs_aware_fixed": {
+        "difference": -0.01425,
+        "ci95_normal_approx": [
+          -0.014984593187417362,
+          -0.013515406812582639
+        ],
+        "a_only": 0,
+        "b_only": 1425
+      }
+    }
+  },
+  "elapsed_seconds": 0.938276139087975
+}
